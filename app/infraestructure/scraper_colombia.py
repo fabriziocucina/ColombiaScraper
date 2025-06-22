@@ -73,7 +73,7 @@ class ColombiaSenadoScraper():
         page_number = 0
         projects_links = []
 
-        while page_number < 1:
+        while True:
             url = f"{PAGE_URL}{page_number}"
             logger.info(f"Recolectando links - página {page_number}: {url}")
             soup = send_requests(url)
