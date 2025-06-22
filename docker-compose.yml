@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  colombia_scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: colombia_scraper
+    volumes:
+      - ./laws_colombia.db:/app/laws_colombia.db
+    command: python main.py

@@ -1,0 +1,8 @@
+base_url: "https://www.camara.gov.co"
+page_url: "https://www.camara.gov.co/secretaria/proyectos-de-ley?p=secretaria/proyectos-de-ley&field_periodo_legislativo_target_id=All&field_estadoley_target_id=All&field_fastrack_value=All&field_tipo_taxonomia_target_id=All&field_origen_target_id=All&field_comision_proyecto_de_ley_target_id=All&combine=&page="
+selectors:
+  table: "table"
+  project_td: "td.views-field.views-field-title"
+  summary_div: "div.field-name-body"
+pdf_extensions:
+  - ".pdf"
