@@ -67,7 +67,7 @@ print(df.head())
 
 ## ✏️ Personalización
 
-- Para cambiar la cantidad de páginas que se scrapean, modifica la condición en `scrape_colombia_laws()` dentro del archivo `ColombiaSenadoScraper.py`.
+- Para cambiar la cantidad de páginas que se scrapean, modifica la condición en `scrape_colombia_laws()` dentro del archivo `scraper_colombia.py`.
 - Los selectores y rutas están configurados desde `config/colombia.yaml`.
 
 ## 📌 Autor
