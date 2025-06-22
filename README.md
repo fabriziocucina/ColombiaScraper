@@ -72,5 +72,5 @@ print(df.head())
 
 ## 📌 Autor
 
-Desarrollado por [Tu Nombre].  
-Para contacto profesional: [tu-email@dominio.com]
+Desarrollado por Fabrizio Cucina.  
+Para contacto profesional: fabriziocucina23@gmail.com
